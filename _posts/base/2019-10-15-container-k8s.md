@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "容器和k8s"  
+subtitle:   "基本原理解析"
+author:     Sun Jianjiao
+header-img: "img/bg/default-bg.jpg"
+catalog: true
+tags:
+    - architecutre
+
+---
+
 # 1 容器基础
 
 容器的核心功能，**容器的本质是进程**。就是通过为进程创建一个“边界”。对于大多数Linux而言，就是Cgroups和Namespace技术。
