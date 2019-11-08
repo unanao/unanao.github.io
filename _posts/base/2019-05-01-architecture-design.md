@@ -308,12 +308,12 @@ KISS原则(Keep It Simple, Stupid!)
 ## 7.1 工业互联网平台
 
 ### 7.1.1 网络架构
-![](/img/post/architecture/design/iot-platform-network.png)
+![架构网络图](/img/post/architecture/design/iot-platform-network.png)
 
 工业互联网平台和工业网关共同作为整个工业信息化服务的平台，为工厂赋能。
 
 ### 7.1.2 系统架构
-![](/img/post/architecture/design/iot-platform-structure.png)
+![整体架构](/img/post/architecture/design/iot-platform-structure.png)
 
 工业互联网平台需要：
 
@@ -323,7 +323,7 @@ KISS原则(Keep It Simple, Stupid!)
 
 ### 7.1.3 控制流
 
-![](/img/post/architecture/design/iot-platform-control-flow.png)
+![控制流](/img/post/architecture/design/iot-platform-control-flow.png)
 
 1. 用户配置通过从浏览器发出请求
 2. 请求到达API网关，API网关**进行认证和操作记录**。将请求代理转发给业务模块，
@@ -333,7 +333,7 @@ KISS原则(Keep It Simple, Stupid!)
 
 ### 7.1.4 数据流
 
-![](/img/post/architecture/design/iot-platform-data-flow.png)
+![数据流](/img/post/architecture/design/iot-platform-data-flow.png)
 
 1. 采集网关完成数据采集
 2. 通过MQTT将采集的数据送往数据汇聚
@@ -345,7 +345,7 @@ KISS原则(Keep It Simple, Stupid!)
 
 ## 7.2 工业互联网网关
 
-![](/img/post/architecture/design/iot-platform-gateway.png)
+![网关](/img/post/architecture/design/iot-platform-gateway.png)
 
 工业互联网网关为了解决工业协议碎片化的问题。所以通过分层的结构解决采集和上报的问题。
 
